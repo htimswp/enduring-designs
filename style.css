@@ -1,0 +1,167 @@
+body {
+    background-color: #000000;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+a {
+    color: rgb(255, 50, 14);
+}
+
+h2 {
+    color: rgb(255, 50, 14);
+}
+
+.background-img {
+width: 100%;
+}
+
+.main-heading-index {
+    position: absolute;
+    top: 22%;
+    left: 26%;
+    margin-top: 50px;
+    color: rgb(255, 50, 14);
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    align-items: center;
+}
+
+.main-heading-signup {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    margin-top: 50px;
+    color: rgb(255, 50, 14);
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    align-items: center;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    top: 5%;
+    left: 24%;
+    position: absolute;
+    color: rgb(255, 50, 14);
+    font-size: 2vw;
+}
+
+.nav-bar-items {
+
+}
+
+
+
+.main-text {
+    display: grid;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    color: rgb(255, 50, 14);
+    text-align: center;
+}
+
+.first-line {
+    font-size: 3vw;
+    padding: 0px 30px 50px;
+    margin-top: -20px;
+}
+
+.main-text-paragraph {
+    font-size: 2vw;
+}
+
+.nav-bar-items {
+    margin-left: 20px;
+}
+
+.form {
+    border-color: rgb(255, 50, 14);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: rgb(255, 50, 14);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 30%;
+    line-height: 2;
+    background-color: transparent;
+}
+
+.form-input {
+    width: 150%;
+    display: grid;
+    justify-content: center;
+}
+
+.submit-button {
+    color: rgb(255, 50, 14);
+    width: 100%;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    padding: 20px;
+    transition-duration: 500ms;
+}
+
+.submit-button:hover {
+    background-color: rgb(255, 50, 14);
+    color: #000000;
+}
+
+fieldset {
+    border-color: transparent;
+}
+
+legend {
+    color: transparent;
+    font-size: 150%;
+}
+
+#newsletter {
+    margin-left: 25px;
+}
+
+.ideas-heading {
+    position: absolute;
+    top: 15%;
+    left 25%;
+    font-size: 1.8vw;
+}
+
+.ideas-container {
+    position: absolute;
+    top: 25%;
+
+}
+
+.ideas-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.ideas-list {
+    font-size: 1.5vw;
+    margin-left: 20px;
+    padding: 50px
+}
+
+.li-image {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.li-1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.li-2 {
+    display: flex;
+    justify-content: flex-end;
+}
